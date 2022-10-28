@@ -1,0 +1,256 @@
+outfit ClusterRailgun
+	"category" "Secondary Weapons"
+	cost 20000
+	"thumbnail" "outfit/railgun"
+	mass 1
+	"outfit space" -4
+	"weapon capacity" -4
+	"gun ports" -1
+	"railgun slug capacity" 100
+	description "A railgun slug launcher that adds cluster ammo"
+	weapon
+		sprite "projectile/rail slug"
+		homing 2
+		ammo "Railgun Slug"
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"live effect" "rockettrace" 200
+		inaccuracy 3
+		velocity 1
+		acceleration 2
+		drag 0.5
+		turn 5
+		lifetime 1000
+		"range override" 2100
+		reload 120
+		"firing energy" 3.5
+		"firing heat" 7.2
+		"firing force" 70
+		"split range" 300
+		"tracking" 1
+		submunition "ClusterAmmo" 200
+
+
+outfit "ClusterAmmo"
+	weapon
+		sprite "effect/artcase"
+		"hit effect" "small explosion"
+		"inaccuracy" 30
+		drag 2
+		"velocity" 30
+		"lifetime" 500
+		"hit force" 1
+		"corrosion damage" 2
+		"disruption damage" 1
+		"slowing damage" 10
+		"energy damage" 10
+
+outfit "Rocket fabricator"
+	"category" "Secondary Weapons"
+	"cost" 10000
+	"thumbnail" "outfit/shard"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -7
+	"gun ports" -1
+	weapon
+		sprite "projectile/unshard"
+		sound "grab-strike"
+		icon "icon/shard"
+		"fire effect" "basic launch"
+		"live effect" "rockettrace" 30
+		"hit effect" "shard impact"
+		inaccuracy 30
+		velocity 4
+		lifetime 120
+		reload 5
+		"firing energy" 5
+		"shield damage" 10
+		"hull damage" 200
+		"firing heat" 30
+		drag .1
+		turn 1
+		homing 4
+		"tracking" .8
+		"missile strength" 1
+		acceleration 1
+
+
+
+outfit "Hallucination cannon"
+	category "Turrets"
+	cost 100000
+	mass 8
+	thumbnail "thumbnail/hallthumbnail"
+	"outfit space" -5
+	"turret mounts" -1
+	"weapon capacity" -69
+	weapon
+		sprite projectile/hallprojectile
+		lifetime 1000
+		reload 50
+		homing 4
+		velocity 4
+		turn 0.1
+		inaccuracy 2
+		"turret turn" 50
+		"optical tracking" 1
+		"firing energy" 40
+
+
+outfit "Disabler field"
+	category Turrets
+	cost 1000000
+	mass 8
+	thumbnail outfit/unknown
+	"outfit space" -24
+	"turret mounts" -1
+	"weapon capacity" -14
+	weapon
+		lifetime 3
+		velocity 400
+		"turret turn" 10
+		"firing energy" 4
+		"shield damage" 100000
+		"fuel damage" 100000
+		"heat damage" 100000
+		"ion damage" 100000
+		"slowing damage" 100000
+		"burn damage" 100000
+		reload 10
+	description "This device produces a field that completly disables any ship in a matter of seconds, Does not deal any hull damage but makes it defenseless, Also removes all the fuel of the target"
+
+outfit minigun
+	category Systems
+	mass 14
+	thumbnail hardpoint/machinegun
+	"gatling round capacity" 1000
+	"turret mounts" -1
+	weapon
+		sprite projectile/bullet
+			"frame rate" 0
+			delay 5
+		"hardpoint sprite" hardpoint/machinegun
+		ammo "Gatling Gun Ammo"
+		"fire effect" "minigun fire"
+		"hit effect" "bullet impact"
+		lifetime 4000
+		velocity 50
+		"turret turn" 8
+		"firing energy" 1
+		"firing heat" 5
+		"shield damage" 20
+		"hull damage" 1
+		piercing 1
+
+effect "minigun fire"
+	sound "explosion tiny"
+
+
+
+outfit "LRASM"
+	category "Ammunition"
+	cost 1
+	thumbnail "outfit/Flak Shell"
+	"mass" .001
+	"LRASM Capacity" -1
+	description "LRASM, A guided missle"
+
+outfit "LRASM turret"
+	category "Systems"
+	cost 100
+	thumbnail "outfit/Flak Cannon"
+	"mass" 4
+	"outfit space" 0
+	"weapon capacity" 0
+	"gun ports" -3
+	"LRASM Capacity" 310
+	weapon
+		sprite "projectile/Flak Shell"
+		sound "explosion large"
+		ammo "LRASM"
+		icon "icon/sidewinder"
+		"fire effect" "bullet impact"
+		"hit effect" "huge explosion"
+		"inaccuracy" 20
+		"velocity" 0.25
+		"lifetime" 500
+		"reload" 4
+		"firing energy" 50
+		"firing heat" 20
+		"acceleration" 2
+		"drag" .1
+		"turn" 2
+		"radar tracking" 1
+		"homing" 4
+		"shield damage" 10
+		"hull damage" 100
+		"hit force" 12
+		"ion damage" 1
+		"slowing damage" 10
+		"missile strength" 10
+	description "(Long Range Anti Spaceship Missle) a massive turret that shoots advanced guided missles"
+
+
+
+
+
+outfit "LRASM missle storage"
+	category "Systems"
+	cost 500
+	thumbnail "outfit/Flak Shell"
+	"mass" 10
+	"outfit space" -20
+	"LRASM Capacity" 100
+	ammo "LRASM"
+	description "Storage for LRASM Missles"
+
+
+
+outfit "Disabler Missile"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/nuke"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		"hardpoint sprite" "hardpoint/nuke"
+		sound "nuke"
+		"ammo" "Disabler Missile"
+		stream
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"velocity" 6
+		"lifetime" 8000
+		"reload" 400
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing" 4
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 30
+		"blast radius" 1000
+		"hit force" 120
+		"ion damage" 10000
+		"fuel damage" 10000
+		"heat damage" 10000
+		"disruption damage" 100000000
+		"slowing damage" 10000000000
+		"missile strength" 10
+		"hit force" 4000
+		"missile strength" 200
+	description "Disables all ships in the system"
+	description "	[Disabler missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"

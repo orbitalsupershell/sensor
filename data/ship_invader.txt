@@ -1,0 +1,33 @@
+outfit "spaceengine":
+	unplunderable 1
+	thrust 2
+	turn 40
+	"turning energy" 0.1
+	"thrusting energy" 0.1
+	
+ship "invader"
+	sprite "ship/invader"
+	thumbnail "outfit/unknown"
+	attributes
+		category "Heavy Warship"
+		cost 100000
+		mass 10
+		automaton 1
+		drag 1
+		"engine capacity" 20
+		"outfit space" 50
+		"weapon capacity" 40
+		"fuel capacity" 1000
+		"heat dissipation" 2
+		hull 5000
+		weapon
+			"blast radius" 1000
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 0.1
+	outfits 
+		StarStreak 2
+		spaceengine
+	engine 0 0
+	gun 45 3
+	gun -45 3

@@ -1,0 +1,28 @@
+shipyard "sensors"
+	"invader"
+	ExplorerDrone
+	Reign
+	StarDestroyer
+	"Surveillance Drone Weaponized"
+	dronecarrier
+	titan
+	"Class A Freighter"
+	"Class E Freighter"
+	"Class EE Freighter"
+	"UAV"
+	
+outfitter "sensors"
+	minigun
+	ClusterRailgun
+	"Disabler field"
+	"Hallucination cannon"
+	Longjump
+	"OIL PACKET GUN"
+	"LRASM"
+	"LRASM turret"
+	"LRASM missle storage"
+	"Disabler Missile"
+	"Miniature Robot Bomb"
+	"Rocket fabricator"
+	"Railgun Slug"
+	StarStreak

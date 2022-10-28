@@ -1,0 +1,98 @@
+
+
+ship titan
+	noun mech
+	sprite ship/titan_body
+	thumbnail ship/titan_body
+	attributes
+		category "Heavy Warship"
+		cost 100000
+		mass 2
+		bunks 50
+		drag 1
+		"engine capacity" 400
+		"fuel capacity" 1000
+		"gatling round capacity" 2100
+		"heat dissapation" 0.9
+		hull 1000
+		"outfit space" 1000
+		"required crew" 1
+		shields 5100
+		"weapon capacity" 200
+	outfits
+		"Anvil-Class Engine" 2
+		"Cooling Module"
+		"LP036a Battery Pack" 10
+		"Large Collector Module" 2
+		Longjump
+		minigun
+	engine -5 -10
+	engine 5 -10
+	turret -34 0 minigun
+
+
+ship "UAV"
+	noun "uav"
+	sprite "ship/drone"
+	thumbnail "thumbnail/drone"
+	attributes
+		category Fighter
+		cost 50
+		mass 9
+		automaton 1
+		drag 0.53
+		"engine capacity" 28
+		"heat dissipation" 0.9
+		hull 3000
+		"outfit space" 60
+		"weapon capacity" 8
+		weapon
+			"blast radius" 3
+			"shield damage" 30
+			"hull damage" 15
+			"hit force" 45
+	outfits
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
+		"Supercapacitor"
+		"nGVF-AA Fuel Cell"
+		"Rocket fabricator"
+	engine -5 29
+	engine 5 29
+	gun 0 0
+	explode "tiny explosion" 1
+	description "UAV"
+
+ship "Surveillance Drone Weaponized"
+	sprite "ship/surveillance drone"
+	thumbnail "thumbnail/surveillance drone"
+	attributes
+		category Drone
+		cost 50000
+		mass 15
+		automaton 1
+		drag 0.5
+		"engine capacity" 28
+		"heat dissipation" 0.9
+		hull 300
+		"outfit space" 54
+		"weapon capacity" 6
+		weapon
+			"blast radius" 3
+			"shield damage" 30
+			"hull damage" 15
+			"hit force" 45
+	outfits
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
+		"nGVF-AA Fuel Cell"
+	engine -5 29
+	engine 5 29
+	gun 0 0
+	explode "tiny explosion" 15
+	description "A retro-fitted Surveillance Drone that has outfit space converted to weapon space"
+	description "You need to add weapons yourself"
+
+
+
+
