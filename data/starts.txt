@@ -1,0 +1,29 @@
+start "sensor"
+	name "sensor"
+	description `sensor?`
+	description `sensor!`
+	description `sensor scan.`
+	description `sensor sensor sensor.`
+	thumbnail "scene/lobby"
+	date 16 11 3030
+	system "sensor system"
+	planet "Shadow"
+	conversation "sensor intro"
+	account
+		credits 420696969
+		score 420
+		mortgage Mortgage
+			principal 4
+			interest 0.004
+			term 365
+	set "license: Pilot's"
+
+
+
+conversation "sensor intro"
+	scene "scene/lobby"
+	`The bank's architecture is sensor`
+	`	sensor scan outfit, sensor, sensor scan, sensor scan cargo, cargo sensor, sensor.`
+	`	the sensor senses your name:`
+	name
+	`	The elevator is sensing you`

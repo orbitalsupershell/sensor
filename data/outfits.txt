@@ -1,0 +1,10 @@
+outfit Longjump
+	category Systems
+	thumbnail outfit/unknown
+	"jump drive" 1
+	"jump fuel" 200
+	"jump range" 50000
+	"jump speed" 500
+	ramscoop 10
+	description "The Longjump Drive!"
+
