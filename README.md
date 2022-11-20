@@ -1,15 +1,5 @@
 # sensor
 
+Tiny mod for adding weapons, still in progress!
 
-
-Tiny mod for abit of weapons
-The home system is in 
-deneb > wormhole > somewhere close to terra incognita
-
-
-
-
-
-
-
-all rights reserved
+More weapons WILL be added soon!
