@@ -1,8 +1,0 @@
-mission "hehe"
-	description `hehe`
-	source "New Boston"
-	job
-	repeat
-	on offer
-		payment 420000
-		fail

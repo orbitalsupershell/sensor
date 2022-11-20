@@ -1,5 +1,5 @@
 effect "rockettrace"
-	sprite "effect/ssmoke"
+	sprite "effect/afterburner"
 		"scale" 0.5
 		"frame rate" 0.02
 		"start frame" 0
@@ -9,11 +9,9 @@ effect "rockettrace"
 	"random angle" 180
 
 effect "rocketminitrace"
-	sprite "effect/minismoke"
+	sprite "effect/afterburner"
 		"scale" 0.5
 		"frame rate" 0.1
-		"start frame" 0
+		"start frame" 3
 		"no repeat"
 	lifetime 730
-	"velocity scale" 0
-	"random angle" 180
