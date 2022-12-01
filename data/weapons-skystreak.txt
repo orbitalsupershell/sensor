@@ -57,7 +57,7 @@ outfit "streakstage1"
 		"hull damage" 50
 		phasing
 		"split range" 500
-		submunition "streakstage2" 5
+		submunition "streakstage2" 3
 
 outfit "streakstage2"
 	weapon
@@ -77,5 +77,6 @@ outfit "streakstage2"
 		"tracking" 1
 		acceleration 3
 		"hit force" 1
+		"shield damage" 100
 		"burn damage" 300
 		phasing

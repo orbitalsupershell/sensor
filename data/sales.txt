@@ -1,6 +1,8 @@
 outfitter "Basic Weapons"
 	StarStreak
 	"Railgun Slug"
+	"Incendary Bomb"
+	"FireStream Anti-Missle"
 
 
 outfitter "Basic Outfits"
