@@ -6,9 +6,15 @@ fleet "sensor guard fleet"
     personality
         timid merciful disables
         confusion 1
-    variant 10
-        "Potato"
-
+    variant 1
+        "Potato" 1
+    variant 1
+        "Bastion" 2
+    variant 1
+        "Sparrow" 50
+    variant 100
+        "Bastion" 1
+    
 fleet "sensor swarm fleet"
     government "Sensor"
     names "republic capital"

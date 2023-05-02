@@ -26,7 +26,7 @@ ship "Potato"
 	outfits
 		"Beam Laser" 2
 		
-		"nGVF-BB Fuel Cell"
+		"nGVF-BB Fuel Cell" 
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
 		

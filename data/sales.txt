@@ -8,7 +8,12 @@ outfitter "Basic Weapons"
 
 
 outfitter "Basic Outfits"
+	StarStreak
+	OctoPotato
+	"BFG2000"
 	"Railgun Slug"
+	"Incendary Bomb"
+	"FireStream Anti-Missle"
 
 #shipyard "Basic Ships"
 #	"Potato"
