@@ -1,0 +1,21 @@
+fleet "sensor guard fleet"
+    government "Sensor"
+    names "republic capital"
+    fighters "republic fighter"
+    cargo 0
+    personality
+        timid merciful disables
+        confusion 1
+    variant 10
+        "Potato"
+
+fleet "sensor swarm fleet"
+    government "Sensor"
+    names "republic capital"
+    fighters "republic fighter"
+    cargo 0
+    personality
+        heroic swarming
+        confusion 1
+    variant 10
+        "Surveillance Drone" 4

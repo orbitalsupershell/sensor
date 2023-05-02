@@ -10,5 +10,5 @@ outfitter "Basic Weapons"
 outfitter "Basic Outfits"
 	"Railgun Slug"
 
-shipyard "Basic Ships"
-	"Potato"
+#shipyard "Basic Ships"
+#	"Potato"
