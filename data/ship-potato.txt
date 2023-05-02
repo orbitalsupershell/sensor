@@ -1,6 +1,6 @@
 ship "Potato"
-	sprite "projectile/bigpotato"
-	thumbnail "projectile/bigpotato"
+	sprite "ship/bigpotato"
+	thumbnail "projectile/potato"
 	swizzle 0
 	attributes
 		category "Interceptor"
