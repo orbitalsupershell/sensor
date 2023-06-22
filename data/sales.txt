@@ -16,4 +16,4 @@ outfitter "Basic Outfits"
 	"FireStream Anti-Missle"
 
 #shipyard "Basic Ships"
-#	"Potato"
+	"Potato"
