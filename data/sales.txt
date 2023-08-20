@@ -1,11 +1,11 @@
 outfitter "Basic Weapons"
 	StarStreak
 	OctoPotato
-	"BFG2000"
 	"Railgun Slug"
-	"Incendary Bomb"
 	"FireStream Anti-Missle"
-
+	"sensor-spiral"
+	"sensor-dem"
+	"sensor-BFG2000"
 
 outfitter "Basic Outfits"
 	StarStreak
