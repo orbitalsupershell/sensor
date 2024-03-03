@@ -21,12 +21,13 @@ outfit "sensor-skystreak"
 		"live effect" "rocketminitrace" 60
 		inaccuracy 30
 		velocity 3
-		acceleration 0
+		acceleration 3
 		drag 0.5
 		turn 5
 		lifetime 60
 		stream
 		reload 120
+		homing 1
 		"firing energy" 100
 		"firing heat" 2
 		"firing fuel" 5
@@ -35,6 +36,8 @@ outfit "sensor-skystreak"
 		"radar tracking" 1
 		"optical tracking" 0.1
 		"missile strength" 3
+		"split range" 500
+		
 		phasing
 		submunition "streakstage1" 3
 
@@ -47,7 +50,7 @@ outfit "streakstage1"
 		"die effect" "missile death"
 		"hit effect" "small explosion"
 		"live effect" "rockettrace" 1000
-		"inaccuracy" 30
+		"inaccuracy" 10
 		drag 0.5
 		"velocity" 20
 		"lifetime" 1000
