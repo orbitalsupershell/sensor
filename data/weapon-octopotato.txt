@@ -1,4 +1,5 @@
-outfit OctoPotato
+outfit "sensor-octopotato"
+	"display name" "Octopotato"
 	category "Secondary Weapons"
 	cost 1000
 	thumbnail "outfit/railgun"
