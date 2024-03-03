@@ -1,12 +1,8 @@
 government "sensor"
-	"display name" "Sensor"
+	"display name" "sensor"
 	swizzle 9
-	color "pure black"
+	color .05 .05 .05
 	"player reputation" 1
-	#reputation
-	#    "player reputation" 10
-	#    min -50
-	#    max 1000
 	"crew attack" 1
 	"crew defense" 2
 	"attitude toward"
@@ -27,12 +23,5 @@ government "sensor"
 
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
-	#"friendly disabled hail" <phrase>
-	#"hostile disabled hail" <phrase>
 	enforces
 		government "sensor"
-	#illegals
-	#    <outfit> <fine>
-	#    ...
-	#atrocities
-	#    <outfit>

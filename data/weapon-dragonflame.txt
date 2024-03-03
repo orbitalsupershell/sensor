@@ -1,4 +1,4 @@
-outfit "sensor-BFG2000"
+outfit "sensor-bfg"
 	"display name" "BFG2000"
 	category "Secondary Weapons"
 	cost 1500000
@@ -12,7 +12,6 @@ outfit "sensor-BFG2000"
 		sound "dragonflame"
 		icon "icon/dragonflame"
 		"fire effect" "sensorbfg"
-		"fire effect" "blinktrace" 10
 		"hit effect" "bright hit"
 		"hit effect" "nuke explosion" 10
 		"hit effect" "nuke residue fast" 10
