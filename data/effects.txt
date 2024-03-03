@@ -20,5 +20,5 @@ effect "rocketminitrace"
 	"random angle" 180
 	"random velocity" 0.2
 	"velocity scale" 0
-	lifetime 20
+	lifetime 500
 
