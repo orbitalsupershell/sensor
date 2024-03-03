@@ -25,10 +25,10 @@ outfit "sensor-skystreak"
 		drag 0.5
 		turn 5
 		lifetime 60
+		stream
 		reload 120
 		"firing energy" 100
 		"firing heat" 2
-		"cluster"
 		"firing fuel" 5
 		"homing" 2
 		"infrared tracking" .65
