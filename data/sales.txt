@@ -9,3 +9,4 @@ outfitter "Basic Weapons"
 
 shipyard "Basic Ships"
 	"sensor-potato"
+	"sensor-havoc"
