@@ -65,12 +65,12 @@ outfit "sensor-spiral-flame"
 		submunition "sensor-spiral-flame" 20
 
 effect "sensor-blink"
-    sprite "effect/blink"
-        "scale" 5
-        "frame rate" 1
-        "start frame" 0
-        "no repeat"
-    "velocity scale" 0
-    "random angle" 180
-    lifetime 500
+	sprite "effect/blink"
+		"scale" 5
+		"frame rate" 1
+		"start frame" 0
+		"no repeat"
+	"velocity scale" 0
+	"random angle" 180
+	lifetime 500
 
