@@ -150,108 +150,108 @@ system array
 		distance 800
 		period 349.820
 		offset 244
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 20
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 40
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 60
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 80
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 100
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 120
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 140
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 160
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 180
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 200
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 220
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 240
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 260
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 280
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 300
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 320
-	object "ladar"
+	object "lidar"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -364,7 +364,7 @@ hazard "Ringworld gravity"
 		"damage dropoff" 0 1
 		"dropoff modifier" 0
 
-planet "ladar"
+planet "lidar"
 	#attributes <attribute>... "requires: <attribute>"
 	landscape land/space2
 	description "A ringworld seemingly abandoned on some parts" 
