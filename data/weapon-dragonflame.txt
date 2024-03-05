@@ -1,7 +1,7 @@
 outfit "sensor-bfg"
 	"display name" "BFG2000"
 	category "Secondary Weapons"
-	cost 1500000
+	cost 150000
 	thumbnail "outfit/dragonflame"
 	"mass" 110
 	"outfit space" -156
