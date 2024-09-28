@@ -1,0 +1,27 @@
+outfit "Omnidirectional Thruster Suite"
+	plural "Omnidirectional Thrusters"
+	category "Engines"
+	"cost" 69
+	thumbnail 
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"thrust" 6.5
+	"thrusting energy" 2
+	"thrusting heat" 2.6
+	"turn" 420
+	"turning energy" 1
+	"turning heat" 1.1
+	"reverse thrust" 5.9
+	"reverse thrusting energy" 1.9
+	"reverse thrusting heat" 2.3
+	"flare sprite"
+		"frame rate"
+	"steering flare sprite"
+		"frame rate"
+	"reverse flare sprite"
+		"frame rate"
+	"inertia reduction" .5
+
+outfitter "Basic Weapons"
+	"Omnidirectional Thruster Suite"
