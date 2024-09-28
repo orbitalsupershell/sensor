@@ -14,7 +14,6 @@ system array
 	haze _menu/haze-full
 	minables lead 400 0.1
 	minables tungsten 101 0.1
-	music sensor-mission
 	minables titanium 90 0.1
 	minables uranium 240 0.1
 	belt 10000

@@ -2,7 +2,7 @@ outfit "sensor-clustermissle"
 	"display name" "ClusterMissle"
 	category "Secondary Weapons"
 	cost 20000
-	thumbnail "effect/blink-07"
+	thumbnail "effect/blink"
 	mass 1
 	"weapon capacity" -10
 	"gun ports" -1
