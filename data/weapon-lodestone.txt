@@ -1,31 +1,34 @@
 outfit "sensor-lodestone"
+	"display name" "Lodestone"
+	category "Secondary Weapons"
 	"mass" 2
 	"outfit space" -8
+	cost 1000
 	"weapon capacity" -8
-	"gun ports" -1F
+	"gun ports" -1
+	thumbnail "ui/patir cluster"
 	weapon
 		sprite "effect/uv excimer laser glare.png"
-			"random angle" 180
-			"random spin" 16
-			frame rate 2.4
-			rewind
-		live effect finisher trail 50
-		hit effect finisher impact 1
-		hit effect finisher fragment 12
-		die effect small explosion
+		# 	"random angle" 180
+		# 	"random spin" 16
+		# 	frame rate 2.4
+		# 	rewind
+		# live effect finisher trail 50
+		# hit effect finisher impact 1
+		# hit effect finisher fragment 12
+		# die effect small explosion
 		lifetime 500
 		acceleration 1
 		drag .1
 		turn 2
 		homing
 			leading
-			throttle control
-		radar tracking .8
-		optical tracking .5
-		missile strength 50
-		shield damage 1500
-		hull damage 1900
-		hit force 1125
+			"throttle control"
+		tracking 1
+		"missile strength" 50
+		"shield damage" 1500
+		"hull damage" 1900
+		"hit force" 1125
 
 
 effect "finisher trail"
